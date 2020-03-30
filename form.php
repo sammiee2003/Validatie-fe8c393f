@@ -7,7 +7,7 @@
 </head>
 <body>
 <form method="get">
-    <input type="text" name="mail"></input>
+    <input type="email" name="mail"></input>
     <button>verstuur</button>
     <?php 
     if (isset($_GET['mail'])&& !empty($_GET['mail'])){
